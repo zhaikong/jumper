@@ -59,7 +59,6 @@ tasks/jumper/gesture_*/media/.cache/
 MUJOCO_LOG.TXT
 
 # Editors / OS
-.vscode/
 .idea/
 .DS_Store
 
@@ -67,5 +66,6 @@ MUJOCO_LOG.TXT
 # Note that .env itself **is committed** -- it holds the project-level defaults
 # (see its header) and is not ignored here. Personal overrides and secrets go
 # in .env.local, which takes precedence and is not committed.
-.env.local
 .claude/launch.json
+config.bat
+node_modules
